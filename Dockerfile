@@ -2,7 +2,7 @@ FROM node:18
 
 RUN mkdir -p /app
 WORKDIR /app
-COPY . /usr/src/app/
+COPY . /app/
 
 # install
 RUN npm ci 
